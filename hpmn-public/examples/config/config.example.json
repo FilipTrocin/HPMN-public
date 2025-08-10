@@ -1,0 +1,31 @@
+{
+  "services": {
+    "openai": {
+      "apiKey": "YOUR_OPENAI_API_KEY",
+      "model": "gpt-4o-mini"
+    },
+    "database": {
+      "relational": {
+        "url": "YOUR_DATABASE_URL",
+        "apiKey": "YOUR_DATABASE_API_KEY"
+      },
+      "vector": {
+        "url": "YOUR_VECTOR_DB_URL",
+        "apiKey": "YOUR_VECTOR_DB_API_KEY"
+      }
+    },
+    "workflow": {
+      "url": "YOUR_WORKFLOW_WEBHOOK_URL",
+      "apiToken": "YOUR_WORKFLOW_API_TOKEN"
+    },
+    "embeddings": {
+      "url": "YOUR_EMBEDDING_SERVICE_URL",
+      "token": "YOUR_EMBEDDING_TOKEN"
+    }
+  },
+  "app": {
+    "apiToken": "YOUR_HPMN_API_TOKEN",
+    "port": 3000,
+    "environment": "development"
+  }
+}
